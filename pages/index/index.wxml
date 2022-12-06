@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+    <van-icon name="apps-o" size="200rpx" color="#405f80" />
+    <view class="biaoti">amazcuter的小程序学习demo</view>
+    <van-notice-bar wrapable color="#1989fa" background="#ecf9ff" left-icon="info-o" text="我并没有一个清晰的小程序制作目标，所以这次小程序制作只展示我的学习成果，没有实际功能。但是不要担心，技术学到很多。" />
+    <van-button bindtap="click" color="#3a6899">进入</van-button>
+</view>

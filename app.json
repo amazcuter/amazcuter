@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/base/base",
+        "pages/layout-flex/layout-flex",
+        "pages/weather/weather",
+        "pages/description/description",
+        "pages/cloud_db/cloud_db"
+    ],
+    "tabBar": {
+        "position": "top",
+        "list": [{
+            "pagePath": "pages/base/base",
+            "text": "基本"
+        }, {
+            "pagePath": "pages/layout-flex/layout-flex",
+            "text": "布局"
+        }, {
+            "pagePath": "pages/weather/weather",
+            "text": "API与图表"
+        }, {
+            "pagePath": "pages/cloud_db/cloud_db",
+            "text": "database"
+        }, {
+            "pagePath": "pages/description/description",
+            "text": "说明"
+        }]
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-icon": "@vant/weapp/icon/index",
+        "van-button": "@vant/weapp/button/index",
+        "van-notice-bar": "@vant/weapp/notice-bar/index",
+        "van-circle": "@vant/weapp/circle/index",
+        "van-dialog": "@vant/weapp/dialog/index",
+        "ec-canvas": "/ec-canvas/ec-canvas"
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "小程序学习demo",
+        "navigationBarTextStyle": "black"
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于天气效果展示"
+        }
+    }
+}

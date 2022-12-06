@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="cb">
+  <van-button class="btn" bindtap="click" color="#3a6899">刷新数据</van-button>
+</view>
+<view class="cc">
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+</view>

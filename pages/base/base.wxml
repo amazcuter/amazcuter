@@ -1,0 +1,9 @@
+<!--pages/base/base.wxml-->
+<!-- 此页面包含基本交互以及数据库相关功能 -->
+<view class="container">
+    <van-circle stroke-width="12" size="240" value="{{num*10 }}" color="{{ gradientColor }}" text="{{num}}" />
+    <van-button disabled="{{btndis}}" class="btn" color="linear-gradient(to right, #ee0a24, #ffd01e)" bind:click="start">
+        10秒计时
+    </van-button>
+</view>
+<van-dialog zindex="10000" id="van-dialog" />

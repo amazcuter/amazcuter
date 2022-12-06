@@ -1,0 +1,7 @@
+<!--pages/layout-flex/layout-flex.wxml-->
+<view class="container">
+    <view wx:for="{{color}}" wx:key="item">
+        <van-icon class="iconofflex" name="smile-o" size="140rpx" color="{{item}}"/>
+    </view>
+</view>
+<van-button class="btn" bind:click="recolor" color="linear-gradient(to right, #ff0000, #0000ff)">重置颜色</van-button>
